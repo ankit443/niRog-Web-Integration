@@ -186,3 +186,60 @@ ul{
     gap: 40px;
 
 }
+
+/* HeaderSection */
+
+header{
+
+    padding: 50px var(--paddingInlineSection);
+
+
+}
+
+.headerSection{
+
+    justify-content: center;
+    gap: 50px;
+}
+
+.headerLeft{
+
+    max-width: 50vw;
+
+}
+
+.headerLeft h1{
+    margin-top: 20px;
+
+}
+
+.getStartedButton{
+    margin: 0px;
+
+}
+
+.headerRight img{
+
+    width: 600px;
+}
+
+/* Companies/Hospitals Header Section Part */
+
+.hospitalsHeader{
+
+    text-align: center;
+    margin-block: 30px;
+    color: var(--primaryTextColor);
+}
+
+.logos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.logo{
+
+    height: 100px;
+
+}
