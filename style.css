@@ -243,3 +243,51 @@ header{
     height: 100px;
 
 }
+
+/* Features Section   */
+
+.featuresSection{
+    padding: 80px var(--paddingInlineSection) 0;
+
+
+
+}
+
+.featuresHeader{
+    text-align: center;
+
+}
+
+.featuresHeadingText{
+
+    margin-bottom: 20px;
+
+}
+
+.featuresArea{
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 40px;
+    margin-top: 20px;
+
+
+}
+
+.featuresCard{
+
+    flex-direction: column;
+   
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+
+
+}
+
+.featuresCard img{
+
+    width: 100px;
+}
