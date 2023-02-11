@@ -1,5 +1,5 @@
 /* Fonts for our web project: Roboto and Poppins*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
 
 /* Reset classes from here: */
 
@@ -177,7 +177,7 @@ ul{
 
 .navLinks {
 
-    flex-basis: 730px;
+    flex-basis: 900px;
 }
 
 .navLinks ul{
