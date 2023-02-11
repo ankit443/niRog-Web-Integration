@@ -60,6 +60,13 @@ a {
 
 }
 
+/* UL Parts */
+
+ul{
+    list-style: none;
+
+}
+
 
 /* Utility classes from here:  */
 .smallBoldText {
@@ -77,6 +84,15 @@ a {
 
 }
 
+.flex{
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* topBanner Part */
+
 .topBanner{
 
 
@@ -84,6 +100,7 @@ a {
     background-color: #4fd482;
     background-image: url('/Assets/asset\ 32.png');
     background-size: 300px;
+    /* background-repeat: no-repeat; */
 
 
 }
@@ -93,5 +110,32 @@ a {
     color: rgb(25, 0, 147);
     padding: 15px 30px;
     text-align: center;
+
+}
+
+
+/* NavPart */
+.mainNav{
+
+    margin-top: 20px;
+    justify-content: space-between;
+
+
+}
+
+.companyLogo img{
+
+    width: 50px;
+}
+
+.navLinks {
+
+    flex-basis: 730px;
+}
+
+.navLinks ul{
+
+    justify-content: end;
+    gap: 40px;
 
 }
