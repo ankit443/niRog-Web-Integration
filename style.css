@@ -93,6 +93,7 @@ ul{
 .hoverLink{
 
     color: var(--primaryTextColor);
+    transition: 0.2s ease-out ;
 
 
 }
@@ -100,6 +101,40 @@ ul{
 .hoverLink:hover{
 
     color: var(--accentColor);
+}
+
+.primaryButton{
+
+    background-color: var(--accentColor);
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondaryTextColor);
+    transition: 0.2s ease-out;
+}
+
+.primaryButton:hover{
+
+    background-color: var(--accentColorDark);
+
+}
+
+.secondaryButton{
+
+    border: 0.5px solid var(--secondaryTextColor);
+    border-radius: 6px;
+    font-weight: 700;
+    color: var(--primaryTextColor)  !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondaryButton:hover{
+
+    border-color: var(--accentColor);
+    color: var(--accentColor);
+    
 }
 
 
