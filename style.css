@@ -1,6 +1,8 @@
 /* Fonts for our web project: Roboto and Poppins*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+/* Reset classes from here: */
+
 * {
 
     margin: 0;
@@ -55,5 +57,41 @@ a {
 
     text-decoration: none;
     display: inline-block;
+
+}
+
+
+/* Utility classes from here:  */
+.smallBoldText {
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.container {
+
+
+    max-width: 2000px;
+    margin-inline: auto;
+    padding-inline: var(--paddingInlineSection);
+
+}
+
+.topBanner{
+
+
+
+    background-color: #4fd482;
+    background-image: url('/Assets/asset\ 32.png');
+    background-size: 300px;
+
+
+}
+
+.bannerText{
+
+    color: rgb(25, 0, 147);
+    padding: 15px 30px;
+    text-align: center;
 
 }
