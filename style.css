@@ -248,6 +248,10 @@ header{
 
 .featuresSection{
     padding: 80px var(--paddingInlineSection) 0;
+    background-image: url(./Assets/asset\ 41.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
 
 
 
@@ -291,3 +295,5 @@ header{
 
     width: 100px;
 }
+
+
